@@ -49,9 +49,9 @@ class getImage{
             mysqli_select_db($this->conn, $this->db);
         }
         if (!$this->conn) {
-				$this->status_fatal = true;
-				echo 'Connection failed';
-				die();
+		$this->status_fatal = true;
+		echo 'Connection failed';
+		die();
 			}
       return $this->conn;
     }
