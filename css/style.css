@@ -1,0 +1,87 @@
+*{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container{
+  margin: 0 auto;
+  top: 10%;
+  position: relative;
+  width: 850px;
+  height: 600px;
+  text-align: center;
+}
+
+.container #imgLink{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container #slider{
+  border: 1px solid #ccc;
+  width: 700px; height: 500px; top: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.container img{
+  width: 700px;
+  height: 500px;
+  float: left;
+  display: none;
+}
+
+.container .btns{
+  position: absolute;
+  top: 335px;
+  width: 64px;
+  height: 64px;
+}
+
+.container .btns:hover{
+  cursor: pointer;
+}
+
+.container #left{
+  float: left;
+  background: url(../images/arrow-left-64.png) 0 no-repeat;
+}
+
+.container #right{
+	float: right;
+  left: 786px;
+  background: url(../images/arrow-right-64.png) 0 no-repeat;
+}
+
+#tips{
+  position: relative;
+  top: 50px;
+}
+
+#linkField{
+  width: 270px;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  text-indent: 5px;
+}
+
+#sendImage{
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    background:#FFF;
+    border: 1px solid #ccc;
+    color:#333;
+    cursor: pointer;
+}
+
+#sendImage:hover{
+    background:#f5f5f5;
+    border: 1px solid #ccc;
+}
